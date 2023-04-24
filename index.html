@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <!-- Fonte awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-back">
+    <header class="bg-back py-4">
+      <div
+        class="container mx-auto flex justify-between items-center px-4 font-dm bg-back"
+      >
+        <div class="text-4xl font-bold text-white">Port.</div>
+        <button class="text-2xl md:hidden text-laranja" id="toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav
+          id="nav"
+          class="fixed top-16 bottom-0 bg-back -right-full w-full md:w-auto md:static transition-all duration-500"
+        >
+          <ul class="md:flex">
+            <li class="md:border-none border-b-2 border-laranja">
+              <a
+                href="#"
+                class="block p-3 text-lg text-white md:hover:border-b-2 md:hover:border-laranja"
+                >Sobre</a
+              >
+            </li>
+            <li class="md:border-none border-b-2 border-laranja">
+              <a
+                href="#"
+                class="block p-3 text-lg text-white md:hover:border-b-2 md:hover:border-laranja"
+                >O que faço</a
+              >
+            </li>
+            <li class="md:border-none border-b-2 border-laranja">
+              <a
+                href="#"
+                class="block p-3 text-lg text-white md:hover:border-b-2 md:hover:border-laranja"
+                >Habilidades</a
+              >
+            </li>
+            <li class="md:border-none border-b-2 border-laranja">
+              <a
+                href="#"
+                class="block p-3 text-lg text-white md:hover:border-b-2 md:hover:border-laranja"
+                >Projetos</a
+              >
+            </li>
+            <li class="md:border-none border-b-2 border-laranja">
+              <a
+                href="#"
+                class="block p-3 text-lg text-white md:hover:border-b-2 md:hover:border-laranja"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-4">
+      <!-- Principal (Imagem e botões) -->
+      <div
+        class="flex flex-col md:flex-row justify-around items-center mt-7 md:mt-14"
+      >
+        <div class="order-2 md:order-1">
+          <h1 class="font-bold text-white text-3xl md:text-4xl">
+            Olá, eu sou<br />
+            <span class="text-4xl md:text-6xl">Lucas Oliveira</span>
+          </h1>
+          <p class="text-dev mt-5">Desenvolvedor Frontend</p>
+          <div class="mt-5 flex items-center gap-4 box-border">
+            <a href="#" class="bg-laranja px-4 py-2 text-white">Download CV</a>
+            <a href="#" class="border-2 border-dev px-8 py-2 text-white"
+              >Veja mais</a
+            >
+          </div>
+        </div>
+        <div class="w-96 md:w-img md:order-2">
+          <img
+            src="./img/eu.png"
+            alt="programdor lucas oliveira, feliz com a vida"
+            class=""
+          />
+        </div>
+      </div>
+
+      <!-- Sobre -->
+      <div class="container mx-auto mt-14">
+        <h2 class="text-center font-bold text-4xl text-white mb-10">
+          Sobre mim
+        </h2>
+        <p class="text-dev">
+          Olá, me chamo Lucas, tenho 21 anos e amo tecnologia. Atualmente estou
+          estudando<strong
+            >Tec. em Informática para Internet no Senac São Miguel</strong
+          >, uma ótima instituição de esino. Possuo sou uma pessoa comunicativa,
+          lider, um excelente gestor e inovador, estou sempre a disposição de
+          ajudar aqueles que precisam de ajuda, afinal como disse Albert
+          Einstein: "Se você não consegue explicar algo de modo simples é porque
+          não entendeu bem"; E de fato, é uma verdade, por este motivo eu gosto
+          de ajudar as pessoas, isso fortalece meu conhecimento, pois na maioria
+          das vezes eu preciso pesquisar e econtrar uma resposta adequada.
+        </p>
+
+        <div class="container mx-auto flex justify-around mt-7 gap-5">
+          <div class="text-white text-center">
+            <div class="inline-block p-6 bg-card rounded-full">
+              <div class="p-2 bg-laranja rounded-full"></div>
+            </div>
+            <h2 class="font-bold">E-mail</h2>
+            <a
+              href="mailto:lucassouzaprofissional16@gmail.com"
+              class="hover:text-larahover:text-laranja duration-200nja transition-all duration-200"
+              >Contatar agora</a
+            >
+          </div>
+          <div class="text-white text-center">
+            <div class="inline-block p-6 bg-card rounded-full">
+              <div class="p-2 bg-laranja rounded-full"></div>
+            </div>
+            <h2 class="font-bold">Linkedin</h2>
+            <a
+              href="https://www.linkedin.com/in/lucas-oliveira-a58b13230/"
+              class="hover:text-laranja transition-all duration-200"
+              >Acessar</a
+            >
+          </div>
+          <div class="text-white text-center">
+            <div class="inline-block p-6 bg-card rounded-full">
+              <div class="p-2 bg-laranja rounded-full"></div>
+            </div>
+            <h2 class="font-bold">Telefone</h2>
+            <a
+              href="tel:+5511990154298"
+              class="hover:text-laranja transition-all duration-200"
+              >Ligar agora</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- O que eu faço -->
+      <div class="container mx-auto mt-14">
+        <h2 class="text-center font-bold text-4xl text-white mb-10">
+          O que eu faço
+        </h2>
+        <div class="flex justify-center gap-10 flex-wrap">
+          <div class="bg-card w-72 px-10 py-5">
+            <i class="fa-brands fa-connectdevelop text-laranja text-5xl"></i>
+            <p class="text-dev font-medium text-3xl">
+              Desenvolvedor de Software
+            </p>
+          </div>
+          <div class="bg-card w-72 px-10 py-5">
+            <i class="fa-brands fa-dev text-laranja text-5xl"></i>
+            <p class="text-dev font-medium text-3xl">Desenvolvedor Web</p>
+          </div>
+          <div class="bg-card w-72 px-10 py-5">
+            <i class="fa-solid fa-cube text-laranja text-5xl"></i>
+            <p class="text-dev font-medium text-3xl">Web<br />Design</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Minhas habilidades -->
+      <div class="container mx-auto mt-14">
+        <h2 class="text-center font-bold text-4xl text-white mb-10">
+          Minhas Habilidades
+        </h2>
+
+        <div
+          class="flex justify-center items-center flex-wrap gap-8 md:gap-28 bg-card px-5 py-5 md:px-10 md:py-10"
+        >
+          <div class="flex flex-col items-center">
+            <p class="text-dev text-4xl md:text-6xl font-bold">100%</p>
+            <p class="text-laranja text-sm md:text-2xl font-bold">HTML</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <p class="text-dev text-4xl md:text-6xl font-bold">80%</p>
+            <p class="text-laranja text-sm md:text-2xl font-bold">CSS</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <p class="text-dev text-4xl md:text-6xl font-bold">70%</p>
+            <p class="text-laranja text-sm md:text-2xl font-bold">JAVASCRIPT</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <p class="text-dev text-4xl md:text-6xl font-bold">100%</p>
+            <p class="text-laranja text-sm md:text-2xl font-bold">NODE</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <p class="text-dev text-4xl md:text-6xl font-bold">50%</p>
+            <p class="text-laranja text-sm md:text-2xl font-bold">REACT</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projetos -->
+      <div class="container mx-auto mt-14 mb-14">
+        <h2 class="text-center font-bold text-4xl text-white mb-10">
+          Projetos
+        </h2>
+        <divportlucas.rf.gd
+          class="blurActive flex items-center flex-wrap px-5 py-10 md:px-10 md:py-12 h-full"
+        >
+          <div class="md:w-1/2">
+            <h1
+              class="font-bold text-white text-2xl md:text-4xl md:leading-relaxed mb-5"
+            >
+              Meu primeiro
+              <span class="text-laranja">portifolio</span>
+              desenvolvido
+            </h1>
+            <p class="text-dev mb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur quos hic cumque, laborum animi dolore odit architecto
+              minus autem magni, vel dolorem laudantium cupiditate adipisci
+              quaerat reiciendis voluptatum molestiae unde.
+            </p>
+            <div class="text-dev flex gap-5 font-medium mb-5">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JS</p>
+            </div>
+            <a href="#" class="bg-laranja px-20 py-2 text-white rounded-sm"
+              >DEMO</a
+            >
+          </div>
+          <div class="md:w-1/2 mt-12">
+            <img src="./img/proj.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Formulário de contato -->
+      <div class="container mx-auto mt-14 mb-14 flex flex-col items-center">
+        <h2 class="text-center font-bold text-4xl text-white mb-10">
+          Entre em contato
+        </h2>
+        <form action="/send_email" method="post" class="grid grid-cols-2 gap-5 text-laranja">
+          <input
+            type="email"
+            class="col-span-2 md:col-span-1 bg-transparent border-b-2 border-dev focus:border-laranja outline-none px-4 py-2"
+            placeholder="E-mail"
+            name="to"
+            id="to"
+          />
+          <input
+            type="text"
+            class="col-span-2 md:col-span-1 bg-transparent border-b-2 border-dev focus:border-laranja outline-none px-4 py-2"
+            placeholder="Assunto"
+            name="subject"
+            id="subject"
+          />
+          
+          <textarea
+            class="col-span-2 md:col-span-2 bg-transparent border-2 border-dev focus:border-laranja outline-none px-4 py-2"
+            placeholder="Descreva a mensagem a ser enviada..."
+            name="message"
+            id="message"
+          ></textarea>
+
+          <input type="submit" class="bg-laranja px-4 py-2 text-white col-span-2 font-bold" value="Enviar agora">
+        </form>
+      </div>
+    </main>
+
+    <footer class="container mx-auto px-4 text-center text-dev mb-16">
+      &copy; Lucas Oliveira
+    </footer>
+
+    <script src="/src/js/btnMobile.js"></script>
+  </body>
+</html>

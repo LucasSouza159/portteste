@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blurActive{
+    background: linear-gradient(106.51deg, rgba(255,255,255,0.05) 3.44%, rgba(255,255,255,0.02) 64.82%);
+    backdrop-filter: blur(100px);
+    border-radius: 24px;
+}
+/*Barra de rolagem*/
+/*Fundoque corre*/
+::-webkit-scrollbar-track {
+    background-color: #171717;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F2672E;
+  }
+  /*Linha que desce*/
+  ::-webkit-scrollbar-thumb {
+    background: #F2672E;
+    border-radius: 30px;
+  }
