@@ -8,6 +8,6 @@
     "path": "^0.12.7"
   },
   "scripts":{
-    "start": "node ./src/js/sendEmail.js"
+    "start": "node ./js/sendEmail.js"
   }
 }
